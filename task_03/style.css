@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 100px auto 100px;
+}
+
+.input {
+    width: 200px;
+    height: 20px;
+    background-color: blanchedalmond;
+    color: blue;
+    font-size: 12px;
+}
+
+.button {
+    width: 50px;
+    background-color: blanchedalmond;
+    font-size: 12px;
+    margin-bottom: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.button:hover {
+    background-color: azure;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.image-container {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 20px;
+}
+
+.image {
+    max-width: 200px;
+    max-height: 200px;
+}
